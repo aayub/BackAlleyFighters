@@ -1,0 +1,96 @@
+#charA{
+	-fx-background-image: url(../resources/buttons/A.png);
+	-fx-background-repeat: no-repeat;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-alignment: center;
+	-fx-padding: 0;
+}
+
+#charB{
+	-fx-background-image: url(../resources/buttons/B.png);
+	-fx-background-repeat: no-repeat;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-alignment: center;
+	-fx-padding: 0;
+}
+
+/* START button styles*/
+/*-fx-background-image: url(../buttons/selectR.png); */
+#start{
+	-fx-background-image: url(../resources/buttons/selectR.png);
+	-fx-background-repeat: no-repeat;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-pref-height: 75px;
+	-fx-pref-width: 150px;
+	
+	}
+	
+
+#start:hover, #start:pressed{
+    -fx-background-image: url(../resources/buttons/SelectH.png);
+    -fx-background-repeat: no-repeat;
+    -fx-border-color: transparent;
+	-fx-background-color: transparent;
+}
+
+/* EXIT button styles*/
+#exit{
+	-fx-background-image: url(../resources/buttons/exitR.png);
+	-fx-background-repeat: no-repeat;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-pref-height: 75px;
+	-fx-pref-width: 150px;
+	
+}
+
+#exit:hover, #exit:pressed{
+    -fx-background-image: url(../resources/buttons/exitH.png);
+    -fx-background-repeat: no-repeat;
+}
+
+/* GO button styles*/
+#go{
+	-fx-background-image: url(../resources/buttons/goR.png);
+	-fx-background-repeat: no-repeat;
+	-fx-pref-height: 75px;
+	-fx-pref-width: 150px;
+}
+
+#go:hover, #go:pressed{
+    -fx-background-image: url(../resources/buttons/goH.png);
+    -fx-background-repeat: no-repeat;
+}
+
+/* View Controls button styles*/
+#vC{
+	-fx-background-image: url(../resources/buttons/viewControls.png);
+	-fx-background-repeat: no-repeat;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-pref-height: 50px;
+	-fx-pref-width: 200px;
+	-fx-alignment: center;
+	-fx-padding: 0;
+}
+
+#vC:hover, #vC:pressed{
+    -fx-background-image: url(../resources/buttons/viewControls2.png);
+    -fx-background-repeat: no-repeat;
+}
+
+/* BACK button button styles*/
+#back{
+	-fx-background-image: url(../resources/buttons/backR.png);
+	-fx-background-repeat: no-repeat;
+	-fx-pref-height: 75px;
+	-fx-pref-width: 150px;
+}
+
+#back:hover, #back:pressed{
+    -fx-background-image: url(../resources/buttons/backH.png);
+    -fx-background-repeat: no-repeat;
+}
